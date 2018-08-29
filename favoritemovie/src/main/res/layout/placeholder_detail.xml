@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_spacing"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="154dp"
+            android:layout_height="231dp"
+            android:background="@color/placeholder_bg"
+            android:transitionName="poster" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/medium_spacing"
+                android:background="@color/placeholder_bg"
+                android:layout_marginTop="@dimen/spacing"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="@dimen/medium_spacing"
+                android:background="@color/placeholder_bg"
+                android:layout_marginTop="@dimen/medium_spacing"
+                android:text="@string/release_date"
+                android:textColor="@color/placeholder_bg"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/placeholder_text_height" />
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="@dimen/medium_spacing"
+                android:background="@color/placeholder_bg"
+                android:layout_marginTop="@dimen/spacing"
+                android:textStyle="bold"
+                android:textColor="@color/placeholder_bg"
+                android:text="@string/duration"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/placeholder_text_height" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="@dimen/medium_spacing"
+                android:background="@color/placeholder_bg"
+                android:layout_marginTop="@dimen/spacing" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/placeholder_text_height" />
+
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="@dimen/medium_spacing"
+                android:background="@color/placeholder_bg"
+                android:layout_marginTop="@dimen/spacing" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/placeholder_text_height"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/medium_spacing"
+        android:layout_marginRight="@dimen/medium_spacing"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="@dimen/medium_spacing"
+            android:background="@color/placeholder_bg" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginTop="@dimen/spacing"
+            android:background="@color/placeholder_bg"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginTop="@dimen/spacing"
+            android:background="@color/placeholder_bg"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginTop="@dimen/spacing"
+            android:background="@color/placeholder_bg"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginTop="@dimen/spacing"
+            android:background="@color/placeholder_bg"/>
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="@dimen/medium_spacing"
+            android:layout_marginTop="@dimen/medium_spacing"
+            android:background="@color/placeholder_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="@dimen/spacing"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="3dp"
+                android:background="@color/placeholder_bg"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="3dp"
+                android:background="@color/placeholder_bg"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="3dp"
+                android:background="@color/placeholder_bg"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="3dp"
+                android:background="@color/placeholder_bg"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="3dp"
+                android:background="@color/placeholder_bg"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="3dp"
+                android:background="@color/placeholder_bg"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="3dp"
+                android:background="@color/placeholder_bg"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="3dp"
+                android:background="@color/placeholder_bg"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="3dp"
+                android:background="@color/placeholder_bg"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

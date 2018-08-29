@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Catalogue Movie</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="upcoming">Akan Tayang</string>
+    <string name="now_playing">Sedang Tayang</string>
+    <string name="popular">Populer</string>
+    <string name="label_detail">Detail</string>
+    <string name="label_share">Bagikan</string>
+    <string name="error_msg">Ada sesuatu yang salah, mohon periksa koneksi kamu dan coba lagi</string>
+    <string name="search">Cari</string>
+    <string name="label_search_movie">Cari Film</string>
+    <string name="loading_detail">Memuat detail film&#8230;</string>
+    <string name="label_language">Ubah Bahasa</string>
+    <string name="share_msg_app">Bangun karirmu sebagai Developer Profesional. Belajar menjadi Android Developer Expert!</string>
+    <string name="referal_link" translatable="false">https://www.dicoding.com/academies/14?course_ref=9955435fdfbce979f8aaae6a</string>
+    <string name="minutes">m</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="duration">Durasi</string>
+    <string name="vote_average">Rata - rata penilaian</string>
+    <string name="overview">Kilasan Singkat</string>
+    <string name="genre">Genre</string>
+    <string name="cast">Pemeran</string>
+    <string name="added_tofavorite">ditambahkan ke</string>
+    <string name="removed_fromfavorite">dihapus dari</string>
+    <string name="label_myfavorite">Favorit</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="msg_empty_favorite">Kamu belum punya daftar film favorit</string>
+    <string name="image_backdrop_movie">Gambar Backdrop Film</string>
+    <string name="image_cast">Gambar Pemeran</string>
+    <string name="image_poster_movie">Gambar Poster Film</string>
+    <string name="more_menu">Menu lebih</string>
+    <string name="appwidget_text">Film Favorit</string>
+    <string name="label_daily_reminder_title">Pengingat Harian</string>
+    <string name="label_daily_reminder_summary">Dapatkan pemberitahuan pengingat harian</string>
+    <string name="action_notification">Pemberitahuan</string>
+    <string name="label_upcoming_reminder_summary">Dapatkan pemberitahuan film yang akan tayang</string>
+    <string name="label_upcoming_reminder_title">Pengingat Film Akan Tayang</string>
+    <string name="msg_daily_reminder">Jangan lupa pilih film kamu!</string>
+    <string name="label_activated">Diaktifkan</string>
+    <string name="label_deactivated">Dinonaktifkan</string>
+    <string name="label_language_summary">Ubah pengaturan lokal perangkat</string>
+    <string name="msg_upcoming_reminder">hari ini rilis</string>
+    <string name="label_add_favorite">Tambahkan ke Favorit</string>
+    <string name="label_remove_favorite">Hapus dari Favorit</string>
+    <string name="notfound_msg">Maaf, Film yang kamu cari tidak ditemukan. Ingin kembali dan mencoba kata kunci lain?</string>
+    <string name="search_again">Cari Lagi</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="hours">j</string>
+</resources>

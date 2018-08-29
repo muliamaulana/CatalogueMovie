@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/spacing"
+    android:layout_marginRight="@dimen/spacing"
+    android:layout_marginTop="@dimen/spacing">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_upcoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        app:cardCornerRadius="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/img_poster_154_height">
+
+                <ImageView
+                    android:id="@+id/img_upcoming"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/img_poster_154_height"
+                    android:contentDescription="@string/image_poster_movie"
+                    android:scaleType="centerCrop" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/bg_gradient" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical"
+                    android:padding="@dimen/spacing">
+
+                    <TextView
+                        android:id="@+id/title_upcoming"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/release_date_upcoming"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/white" />
+
+                        <!--<RatingBar-->
+                            <!--android:id="@+id/ratingBarUpcoming"-->
+                            <!--style="@style/Widget.AppCompat.RatingBar.Small"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_alignParentEnd="true"-->
+                            <!--android:layout_alignParentTop="true"-->
+                            <!--android:numStars="5" />-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/overview_upcoming"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.9"
+                                android:maxLines="2"
+                                android:textColor="@android:color/white"
+                                tools:ignore="NestedWeights" />
+
+                            <ImageView
+                                android:id="@+id/btn_more_upcoming"
+                                android:layout_width="25dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="0.1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:contentDescription="@string/more_menu"
+                                android:src="@drawable/ic_more_vert_white" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,62 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">Catalogue Movie</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="upcoming">Upcoming</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="popular">Popular</string>
+    <string name="label_detail">Detail</string>
+    <string name="label_share">Share</string>
+    <string name="error_msg">Something wrong, please check your connection and try again</string>
+    <string name="search">Search</string>
+    <string name="label_search_movie">Search Movie</string>
+    <string name="loading_detail">Loading detail movie&#8230;</string>
+    <string name="label_language">Change Language</string>
+    <string name="share_msg_app">Build your career as Profesional Developer. Learn to be Android Developer Expert!</string>
+    <string name="referal_link" translatable="false">https://www.dicoding.com/academies/14?course_ref=9955435fdfbce979f8aaae6a</string>
+    <string name="title_activity_scrolling" translatable="false">MovieDetailActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="minutes">m</string>
+    <string name="hours">h</string>
+    <string name="release_date">Release Date</string>
+    <string name="duration">Duration</string>
+    <string name="vote_average">Vote Average</string>
+    <string name="genre">Genre</string>
+    <string name="overview">Overview</string>
+    <string name="cast">The Cast</string>
+    <string name="label_add_favorite">Add to Favorite</string>
+    <string name="label_remove_favorite">Remove from Favorite</string>
+    <string name="added_tofavorite">added to</string>
+    <string name="removed_fromfavorite">removed from</string>
+    <string name="label_myfavorite">Favorite</string>
+    <string name="msg_empty_favorite">You don\'t have favorite movie yet</string>
+    <string name="image_backdrop_movie">Image Backdrop Movie</string>
+    <string name="image_cast">Image Cast</string>
+    <string name="image_poster_movie">Image Poster Movie</string>
+    <string name="more_menu">More Menu</string>
+    <string name="appwidget_text">Favorite Movies</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="key_reminder_daily" translatable="false">reminder_daily</string>
+    <string name="key_reminder_upcoming" translatable="false">reminder_upcoming</string>
+    <string name="key_setting_locale" translatable="false">setting_locale</string>
+
+    <string name="label_daily_reminder_title">Daily Reminder</string>
+    <string name="label_daily_reminder_summary">Get daily reminder notification</string>
+    <string name="action_notification">Notification</string>
+    <string name="label_upcoming_reminder_summary">Get upcoming movie reminder notification</string>
+    <string name="label_upcoming_reminder_title">Upcoming Movie Reminder</string>
+    <string name="label_language_summary">Change your phone localization</string>
+    <string name="msg_daily_reminder">Don\'t forget to pick your movie!</string>
+    <string name="msg_upcoming_reminder">realese today</string>
+    <string name="label_activated">Activated</string>
+    <string name="label_deactivated">Deactivated</string>
+    <string name="title_activity_people_detail" translatable="false">PeopleDetailActivity</string>
+    <string name="retry">Retry</string>
+    <string name="notfound_msg">Sorry, The Movie that you are looking for is not found. Maybe go back and try different keyword?</string>
+    <string name="search_again">Search Again</string>
+    <string name="production_companies">Production Companies</string>
+</resources>
